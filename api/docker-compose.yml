@@ -2,7 +2,7 @@ name: backend-api-stack
 
 services:
   backend-api:
-    image: lebondeveloppeur/backend-s8-api:latest
+    image: lebondeveloppeur/backend-s8-image:latest
     container_name: backend-api
     environment:
       - MONGO_URI=mongodb://root:pass-123@92.113.149.44:27017/book-store?authSource=admin  # MongoDB connection URI
